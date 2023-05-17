@@ -14,7 +14,12 @@ Running the app setup for the first time requires different code compared to an 
   </li>
   
   <li>
-    Navigate to the project directory where Program_Initial.cs file is located.  The code for Program.Initial.cs should be uncommented, while the code for Program_Existing.cs should be commented.
+    Navigate to the project directory where Program_Initial.cs file is located.  The code for Program.Initial.cs should be uncommented, while the code for Program_Existing.cs should be commented.  
+    <ul>
+      <li>
+        <b>The hotkey to comment out a selection is ctrl+k+c.  The hotkey to uncomment a selection is ctrl+k+u.</b>
+      </li>
+    </ul>
   </li>
   
   <li>
@@ -41,6 +46,10 @@ Running the app setup for the first time requires different code compared to an 
 
 <h1>Launching an existing orchard service</h1>
 <ol>
+  
+  <li>
+    If you still have the orchard api running in terminal, close the app.
+  </li>
   
   <li>
     Comment out the code for Program_Initial.cs, then  uncomment the code for Program_Existing.cs.
